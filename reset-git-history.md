@@ -5,5 +5,5 @@ git checkout -b main
 git add .
 git commit -m "Initial commit"
 
-git remote add origin https://github.com/push-based/ws-nx-enschede-81223.git
+git remote add origin git@github.com:push-based/nx-ws-ng-conf-24.git
 git push -u --force origin main

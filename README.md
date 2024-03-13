@@ -4,15 +4,15 @@
 
 **System Requirements**
 
-* `node 18`
-* `npm 8`
+* `node ^18.13.0 || ^20.9.0`
+* `npm > 8`
 
 **Clone and install**
 
 ```bash
-git clone https://github.com/push-based/ws-nx-enschede-81223.git
+git clone https://github.com/push-based/nx-ws-ng-conf-24.git
 
-cd ws-nx-enschede-81223
+cd nx-ws-ng-conf-24
 npm install
 
 # (optional) if the step before didn't work, please try the following
@@ -35,7 +35,8 @@ nx serve movies
 
 ## Workshop Information
 
-* [ws info doc](https://docs.google.com/document/d/1cxph6nPZBLGprdLwjoUNqgFT1Uuk6IbYNfrwwUe1cYA/edit?usp=sharing)
+* [ws info doc](https://docs.google.com/document/d/1Xl5J75RAEcDInHB4QZl8NN8skxKm_MNwWXpnG3BTv0k/edit?usp=sharing)
+* [slides](https://drive.google.com/drive/folders/1La1idqQiP9MZZoyA6DxOoJs8YdG9RLVK?usp=sharing)
 
 ## Exercises
 
