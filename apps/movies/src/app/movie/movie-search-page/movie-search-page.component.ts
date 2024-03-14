@@ -1,9 +1,10 @@
+import { AsyncPipe, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, switchMap } from 'rxjs';
-import { MovieModel } from '../movie-model';
+
 import { MovieListComponent } from '../movie-list/movie-list.component';
-import { NgIf, AsyncPipe } from '@angular/common';
+import { MovieModel } from '../movie-model';
 import { SearchMovieService } from '../search-movie.service';
 
 @Component({

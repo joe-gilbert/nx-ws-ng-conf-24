@@ -2,12 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
 import { insert, remove } from '@rx-angular/cdk/transformations';
 import { map, Observable, tap, timer } from 'rxjs';
+
+import { Environment, ENVIRONMENT_TOKEN } from '../shared/env.token';
+import { TMDBMovieModel } from '../shared/model/movie.model';
 import { TMDBMovieCreditsModel } from '../shared/model/movie-credits.model';
 import { TMDBMovieDetailsModel } from '../shared/model/movie-details.model';
 import { TMDBMovieGenreModel } from '../shared/model/movie-genre.model';
-import { TMDBMovieModel } from '../shared/model/movie.model';
 import { MovieModel } from './movie-model';
-import { ENVIRONMENT_TOKEN, Environment } from '../shared/env.token';
 
 @Injectable({
   providedIn: 'root',
@@ -65,7 +66,7 @@ export class MovieService {
 
   getMovieList(
     category: string,
-    page: number = 1,
+    page = 1,
     sortBy = 'popularity.desc'
   ): Observable<TMDBMovieModel[]> {
     const { tmdbBaseUrl: baseUrl } = this.env;

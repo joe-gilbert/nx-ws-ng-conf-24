@@ -1,3 +1,4 @@
+import { NgClass, NgFor, NgIf } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -5,7 +6,6 @@ import {
   TrackByFunction,
   ViewEncapsulation,
 } from '@angular/core';
-import { NgFor, NgClass, NgIf } from '@angular/common';
 
 const range = 10;
 const numStars = 5;

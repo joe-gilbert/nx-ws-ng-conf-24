@@ -1,8 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
-import { Observable, map, tap } from 'rxjs';
+import { map, Observable, tap } from 'rxjs';
+
+import { Environment, ENVIRONMENT_TOKEN } from '../shared/env.token';
 import { MovieModel } from './movie-model';
-import { ENVIRONMENT_TOKEN, Environment } from '../shared/env.token';
 
 @Injectable({ providedIn: 'root' })
 export class SearchMovieService {

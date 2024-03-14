@@ -1,3 +1,4 @@
+import { DOCUMENT, NgFor } from '@angular/common';
 import {
   Component,
   ElementRef,
@@ -8,9 +9,9 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Router } from '@angular/router';
-import { MovieModel } from '../movie-model';
-import { DOCUMENT, NgFor } from '@angular/common';
+
 import { MovieCardComponent } from '../movie-card/movie-card.component';
+import { MovieModel } from '../movie-model';
 
 @Component({
   selector: 'movie-list',

@@ -1,4 +1,5 @@
 import { endWith, Observable, startWith } from 'rxjs';
+
 import { DefaultLoadingProp, LoadingState } from './loading-state.interface';
 
 const defaultLoadingProp: DefaultLoadingProp = 'loading';

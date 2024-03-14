@@ -6,6 +6,7 @@ import {
   Output,
   ViewEncapsulation,
 } from '@angular/core';
+
 import { BackdropComponent } from '../backdrop/backdrop.component';
 
 @Component({

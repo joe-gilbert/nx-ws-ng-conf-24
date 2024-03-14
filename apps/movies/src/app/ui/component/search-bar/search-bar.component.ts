@@ -1,6 +1,3 @@
-import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { RxState } from '@rx-angular/state';
-import { select } from '@rx-angular/state/selections';
 import { DOCUMENT } from '@angular/common';
 import {
   ChangeDetectionStrategy,
@@ -13,6 +10,13 @@ import {
   ViewChild,
   ViewEncapsulation,
 } from '@angular/core';
+import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { FastSvgComponent } from '@push-based/ngx-fast-svg';
+import { coerceObservable } from '@rx-angular/cdk/coercing';
+import { RxState } from '@rx-angular/state';
+import { RxActionFactory } from '@rx-angular/state/actions';
+import { select } from '@rx-angular/state/selections';
+import { RxLet } from '@rx-angular/template/let';
 import {
   filter,
   fromEvent,
@@ -24,10 +28,6 @@ import {
   take,
   withLatestFrom,
 } from 'rxjs';
-import { RxActionFactory } from '@rx-angular/state/actions';
-import { coerceObservable } from '@rx-angular/cdk/coercing';
-import { RxLet } from '@rx-angular/template/let';
-import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 
 type UiActions = {
   searchChange: string;

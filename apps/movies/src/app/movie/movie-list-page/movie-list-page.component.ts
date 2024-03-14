@@ -1,10 +1,11 @@
+import { AsyncPipe, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+
+import { ElementVisibilityDirective } from '../../shared/cdk/element-visibility/element-visibility.directive';
 import { TMDBMovieModel } from '../../shared/model/movie.model';
 import { MovieService } from '../movie.service';
-import { ElementVisibilityDirective } from '../../shared/cdk/element-visibility/element-visibility.directive';
 import { MovieListComponent } from '../movie-list/movie-list.component';
-import { NgIf, AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'movie-list-page',

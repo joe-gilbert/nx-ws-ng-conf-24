@@ -1,5 +1,6 @@
 import { HttpHeaders, HttpInterceptorFn } from '@angular/common/http';
 import { inject } from '@angular/core';
+
 import { ENVIRONMENT_TOKEN } from './shared/env.token';
 
 export const readAccessInterceptor: HttpInterceptorFn = (req, next) => {

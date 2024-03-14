@@ -1,17 +1,18 @@
+import { NgFor, NgTemplateOutlet } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import {
+  FormsModule,
+  ReactiveFormsModule,
   UntypedFormArray,
   UntypedFormControl,
   UntypedFormGroup,
   Validators,
-  FormsModule,
-  ReactiveFormsModule,
 } from '@angular/forms';
-import { filter } from 'rxjs';
-import { MovieModel } from '../movie-model';
-import { MovieService } from '../movie.service';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
-import { NgTemplateOutlet, NgFor } from '@angular/common';
+import { filter } from 'rxjs';
+
+import { MovieService } from '../movie.service';
+import { MovieModel } from '../movie-model';
 import { MovieSearchControlComponent } from '../movie-search-control/movie-search-control.component';
 
 @Component({

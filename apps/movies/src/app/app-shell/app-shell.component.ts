@@ -1,18 +1,19 @@
+import { AsyncPipe, NgFor } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import {
   NavigationEnd,
   Router,
-  RouterLinkActive,
   RouterLink,
+  RouterLinkActive,
 } from '@angular/router';
-import { Component, OnInit } from '@angular/core';
+import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { distinctUntilChanged, filter, map } from 'rxjs';
+
 import { MovieService } from '../movie/movie.service';
 import { DarkModeToggleComponent } from '../ui/component/dark-mode-toggle/dark-mode-toggle.component';
-import { FormsModule } from '@angular/forms';
-import { SearchBarComponent } from '../ui/component/search-bar/search-bar.component';
 import { HamburgerButtonComponent } from '../ui/component/hamburger-button/hamburger-button.component';
-import { NgFor, AsyncPipe } from '@angular/common';
-import { FastSvgComponent } from '@push-based/ngx-fast-svg';
+import { SearchBarComponent } from '../ui/component/search-bar/search-bar.component';
 import { SideDrawerComponent } from '../ui/component/side-drawer/side-drawer.component';
 
 @Component({
