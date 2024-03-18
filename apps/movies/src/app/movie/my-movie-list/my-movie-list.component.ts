@@ -9,11 +9,10 @@ import {
   Validators,
 } from '@angular/forms';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
+import { MovieService } from 'movies/data-access-movies';
+import { MovieSearchControlComponent } from 'movies/feature-movie-search-control';
 import { filter } from 'rxjs';
-
-import { MovieService } from '../movie.service';
-import { MovieModel } from '../movie-model';
-import { MovieSearchControlComponent } from '../movie-search-control/movie-search-control.component';
+import { MovieModel } from 'shared/models';
 
 @Component({
   selector: 'app-my-movie-list',
