@@ -9,9 +9,8 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Router } from '@angular/router';
-
-import { MovieCardComponent } from '../movie-card/movie-card.component';
-import { MovieModel } from '../movie-model';
+import { MovieCardComponent } from 'movies/ui-movie-card';
+import { MovieModel } from 'shared/models';
 
 @Component({
   selector: 'movie-list',

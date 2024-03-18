@@ -2,13 +2,14 @@ import { HttpClient } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
 import { insert, remove } from '@rx-angular/cdk/transformations';
 import { map, Observable, tap, timer } from 'rxjs';
-
-import { Environment, ENVIRONMENT_TOKEN } from '../shared/env.token';
-import { TMDBMovieModel } from '../shared/model/movie.model';
-import { TMDBMovieCreditsModel } from '../shared/model/movie-credits.model';
-import { TMDBMovieDetailsModel } from '../shared/model/movie-details.model';
-import { TMDBMovieGenreModel } from '../shared/model/movie-genre.model';
-import { MovieModel } from './movie-model';
+import {
+  MovieModel,
+  TMDBMovieCreditsModel,
+  TMDBMovieDetailsModel,
+  TMDBMovieGenreModel,
+  TMDBMovieModel,
+} from 'shared/models';
+import { Environment, ENVIRONMENT_TOKEN } from 'shared/util-env-token';
 
 @Injectable({
   providedIn: 'root',

@@ -2,16 +2,18 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
+import { MovieService } from 'movies/data-access-movies';
 import { Observable } from 'rxjs';
+import {
+  MovieModel,
+  TMDBMovieCreditsModel,
+  TMDBMovieDetailsModel,
+} from 'shared/models';
+import { StarRatingComponent } from 'shared/ui-star-rating';
 import { MovieImagePipe } from 'shared/utils';
 
-import { TMDBMovieCreditsModel } from '../../shared/model/movie-credits.model';
-import { TMDBMovieDetailsModel } from '../../shared/model/movie-details.model';
 import { DetailGridComponent } from '../../ui/component/detail-grid/detail-grid.component';
-import { StarRatingComponent } from '../../ui/pattern/star-rating/star-rating.component';
-import { MovieService } from '../movie.service';
 import { MovieListComponent } from '../movie-list/movie-list.component';
-import { MovieModel } from '../movie-model';
 
 @Component({
   selector: 'movie-detail-page',

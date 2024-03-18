@@ -1,11 +1,11 @@
 import { AsyncPipe, NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { SearchMovieService } from 'movies/data-access-movies';
 import { Observable, switchMap } from 'rxjs';
+import { MovieModel } from 'shared/models';
 
 import { MovieListComponent } from '../movie-list/movie-list.component';
-import { MovieModel } from '../movie-model';
-import { SearchMovieService } from '../search-movie.service';
 
 @Component({
   selector: 'app-movie-search-page',
