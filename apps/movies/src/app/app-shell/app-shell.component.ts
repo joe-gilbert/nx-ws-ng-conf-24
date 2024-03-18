@@ -9,12 +9,12 @@ import {
 } from '@angular/router';
 import { FastSvgComponent } from '@push-based/ngx-fast-svg';
 import { distinctUntilChanged, filter, map } from 'rxjs';
+import { SideDrawerComponent } from 'shared/ui';
 
 import { MovieService } from '../movie/movie.service';
 import { DarkModeToggleComponent } from '../ui/component/dark-mode-toggle/dark-mode-toggle.component';
 import { HamburgerButtonComponent } from '../ui/component/hamburger-button/hamburger-button.component';
 import { SearchBarComponent } from '../ui/component/search-bar/search-bar.component';
-import { SideDrawerComponent } from '../ui/component/side-drawer/side-drawer.component';
 
 @Component({
   selector: 'app-shell',
