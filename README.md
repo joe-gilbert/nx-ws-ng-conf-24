@@ -47,5 +47,5 @@ nx serve movies
 * [Code Quality & Consistency](./exercises/5.code-quality-and-consistency)
 * [Custom Generator](./exercises/6.custom-generator.md)
 * [Custom Executor](./exercises/7.custom-executor.md)
-* [Distributed Caching](./exercises/8.distributed-caching)
+* [Distributed Caching](./exercises/8.distributed-caching.md)
 
