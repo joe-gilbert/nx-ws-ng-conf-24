@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@angular/common": "17.3.0",
+    "@angular/core": "17.3.0",
+    "@angular/forms": "17.3.0",
+    "@angular/platform-browser": "17.3.0",
+    "@angular/router": "17.3.0",
+    "@push-based/ngx-fast-svg": "^18.0.0",
+    "@rx-angular/cdk": "^17.0.1",
+    "@rx-angular/state": "^17.0.1",
+    "@rx-angular/template": "^17.1.0",
+    "jest-preset-angular": "~13.1.4",
+    "rxjs": "~7.8.0"
+  }
+}
