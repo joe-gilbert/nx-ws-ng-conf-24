@@ -2,8 +2,8 @@ import { AsyncPipe, NgFor, NgIf } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { of, Subject, switchMap } from 'rxjs';
+import { MovieImagePipe } from 'shared/utils';
 
-import { MovieImagePipe } from '../movie-image.pipe';
 import { MovieModel } from '../movie-model';
 import { SearchMovieService } from '../search-movie.service';
 
