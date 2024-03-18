@@ -76,7 +76,11 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
+      "outputs": ["{options.outputFile}"],
+      "lintFilePatterns": [
+        "apps/movies/**/*.{ts,tsx,js,jsx}",
+        "apps/movies/package.json"
+      ]
     },
     "test": {
       "executor": "@nx/jest:jest",

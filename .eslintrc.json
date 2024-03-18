@@ -4,6 +4,18 @@
   "plugins": ["@nx", "unused-imports", "simple-import-sort"],
   "overrides": [
     {
+      "files": ["*.json"],
+      "parser": "jsonc-eslint-parser",
+      "rules": {
+        "@nx/dependency-checks": [
+          "error",
+          {
+            "includeTransitiveDependencies": true
+          }
+        ]
+      }
+    },
+    {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
         "@nx/enforce-module-boundaries": [
