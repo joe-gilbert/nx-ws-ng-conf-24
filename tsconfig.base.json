@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ws-nx-enschede-81223/shared/ui-theme": [
+      "shared/ui-theme": [
         "libs/shared/ui-theme/src/index.ts"
       ],
       "shared/ui": ["libs/shared/ui/src/index.ts"],
