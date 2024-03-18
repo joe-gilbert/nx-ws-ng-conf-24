@@ -42,7 +42,10 @@ nx serve movies
 
 * [Nx Workspace Intro](./exercises/1.nx-workspace-intro.md)
 * [Scalable Architectures](./exercises/2.scalable-architecture-design.md)
-* [Enforce Module Boundaries](./exercises/3.enforce-module-boundaries.md)
-* [Code Quality & Consistency](./exercises/4.code-quality-and-consistency.md)
-* [Distributed Caching](./exercises/5.distributed-caching.md)
+* [Dependency Checks](./exercises/3.dependency-checks.md)
+* [Enforce Module Boundaries](./exercises/4.enforce-module-boundaries)
+* [Code Quality & Consistency](./exercises/5.code-quality-and-consistency)
+* [Custom Generator](./exercises/6.custom-generator.md)
+* [Custom Executor](./exercises/7.custom-executor.md)
+* [Distributed Caching](./exercises/8.distributed-caching)
 
