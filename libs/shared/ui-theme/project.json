@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/ui-theme/src",
   "prefix": "ws-nx-enschede-81223",
-  "tags": [],
+  "tags": ["scope:shared", "type:ui"],
   "projectType": "library",
   "targets": {}
 }

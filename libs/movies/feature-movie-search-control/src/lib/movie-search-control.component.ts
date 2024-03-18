@@ -7,6 +7,7 @@ import { MovieModel } from 'shared/models';
 import { MovieImagePipe } from 'shared/utils';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'app-movie-search-control',
   templateUrl: './movie-search-control.component.html',
   styleUrls: ['./movie-search-control.component.scss'],

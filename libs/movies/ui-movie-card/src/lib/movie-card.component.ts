@@ -6,6 +6,7 @@ import { StarRatingComponent } from 'shared/ui-star-rating';
 import { MovieImagePipe, TiltDirective } from 'shared/utils';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'movie-card',
   templateUrl: './movie-card.component.html',
   styleUrls: ['./movie-card.component.scss'],

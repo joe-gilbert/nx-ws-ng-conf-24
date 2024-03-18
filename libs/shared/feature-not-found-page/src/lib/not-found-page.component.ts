@@ -9,4 +9,6 @@ import { FastSvgComponent } from '@push-based/ngx-fast-svg';
   standalone: true,
   imports: [FastSvgComponent],
 })
-export class NotFoundPageComponent {}
+export class NotFoundPageComponent {
+  constructor() {}
+}
